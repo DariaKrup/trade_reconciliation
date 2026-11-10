@@ -1,0 +1,76 @@
+2026-03-02 13:09:00  UNCONFIRMED trade 2688: no confirmation from Golden Goose Trading 2 hours after booking
+                     What | Internal: TESLA 100 @ 245.7 USD, fee 20, Donald Duck / Golden Goose Trading, traded 2026-03-02 11:05:00, booked 2026-03-02 11:09:00
+                     Why  | Possibly: Golden Goose Trading has not confirmed it yet, our booking differs from the confirmation in more than one field, or the trade was booked twice or by mistake.
+
+2026-03-02 16:12:00  UNCONFIRMED trade 4078: no confirmation from Lazy Panda Securities 2 hours after booking
+                     What | Internal: NVIDIA 75 @ 129.45 USD, fee 15, Peter Pan / Lazy Panda Securities, traded 2026-03-02 14:10:00, booked 2026-03-02 14:12:00
+                     Why  | Possibly: Lazy Panda Securities has not confirmed it yet, our booking differs from the confirmation in more than one field, or the trade was booked twice or by mistake.
+
+2026-03-02 16:47:00  RESOLVED trade 4078 is now confirmed by confirmation 22267
+                     What | Both: NVIDIA 75 @ 129.45 USD, fee 15, Peter Pan / Lazy Panda Securities, traded 2026-03-02 14:10:00
+                     Note | Update: trade 4078 was reported as unmatched at 2026-03-02 16:12; confirmation 22267 arrived 2h35m after it.
+
+2026-03-03 11:25:00  UNMATCHED CONFIRMATION confirmation 45381: no internal trade 2 hours after Moonshot Capital sent it
+                     What | Broker: APPLE 40 @ 188.32 USD, fee 7.5, Simba King / Moonshot Capital, traded 2026-03-03 09:21:00, received 2026-03-03 09:25:00
+                     Why  | Possibly: we have not booked the trade yet, our booking differs from the confirmation in more than one field, or Moonshot Capital sent it by mistake.
+
+2026-03-03 11:45:00  RESOLVED trade 7101 is now confirmed by confirmation 45381
+                     What | Both: APPLE 40 @ 188.32 USD, fee 7.5, Simba King / Moonshot Capital, traded 2026-03-03 09:20:00
+                     Note | Update: confirmation 45381 was reported as unmatched at 2026-03-03 11:25; trade 7101 arrived 2h20m after it.
+
+2026-03-03 12:19:10  UNCONFIRMED trade 6054: no confirmation from Big Dreams Brokers 2 hours after booking
+                     What | Internal: ASML 50 @ 712.5 EUR, fee 12.5, Mickey Mouse / Big Dreams Brokers, traded 2026-03-03 10:14:10, booked 2026-03-03 10:19:10
+                     Why  | Possibly: Big Dreams Brokers has not confirmed it yet, our booking differs from the confirmation in more than one field, or the trade was booked twice or by mistake.
+
+2026-03-04 13:07:00  MISMATCH trade 2596 vs confirmation 72141: fee
+                     What | Internal: AMAZON 25 @ 177.15 USD, fee 10, Elsa Snow / Big Dreams Brokers, traded 2026-03-04 12:45:00
+                          | Broker:   AMAZON 25 @ 177.15 USD, fee 12.5, Elsa Snow / Big Dreams Brokers, traded 2026-03-04 12:50:00
+                          | Fee: internal '10' vs broker '12.5'
+                     Why  | Big Dreams Brokers charged a different commission than we booked: fee schedule change or manual entry error.
+
+2026-03-04 16:48:00  MISMATCH trade 9974 vs confirmation 97051: broker
+                     What | Internal: MICROSOFT 20 @ 402.6 USD, fee 5, Mickey Mouse / Big Dreams Brokers, traded 2026-03-04 16:30:00
+                          | Broker:   MICROSOFT 20 @ 402.6 USD, fee 5, Mickey Mouse / Golden Goose Trading, traded 2026-03-04 16:36:00
+                          | Broker: internal 'Big Dreams Brokers' vs broker 'Golden Goose Trading'
+                     Why  | The trade is booked with a different broker than the one that confirmed it.
+
+2026-03-04 17:32:05  UNMATCHED CONFIRMATION confirmation 69795: no internal trade 2 hours after Moonshot Capital sent it
+                     What | Broker: NETFLIX 77 @ 411.1 USD, fee 17.5, Elsa Snow / Moonshot Capital, traded 2026-03-04 15:20:05, received 2026-03-04 15:32:05
+                     Why  | Possibly: we have not booked the trade yet, our booking differs from the confirmation in more than one field, or Moonshot Capital sent it by mistake.
+
+2026-03-05 10:29:00  MISMATCH trade 2028 vs confirmation 18519: trader
+                     What | Internal: META 15 @ 533.2 USD, fee 7.5, Donald Duck / Lazy Panda Securities, traded 2026-03-05 10:05:00
+                          | Broker:   META 15 @ 533.2 USD, fee 7.5, Donlad Duck / Lazy Panda Securities, traded 2026-03-05 10:15:00
+                          | Trader: internal 'Donald Duck' vs broker 'Donlad Duck'
+                     Why  | The trade is booked under a different trader than the broker reports.
+
+2026-03-06 11:50:00  MISMATCH trade 4374 vs confirmation 50580: trade_date
+                     What | Internal: TESLA 50 @ 251.1 USD, fee 12.5, Simba King / Golden Goose Trading, traded 2026-03-06 11:00:00
+                          | Broker:   TESLA 50 @ 251.1 USD, fee 12.5, Simba King / Golden Goose Trading, traded 2026-03-07 11:03:00
+                          | Trade date: internal '2026-03-06' vs broker '2026-03-07'
+                     Why  | The trade was booked on a different day than the broker executed it, or a cut-off issue.
+
+2026-03-06 18:42:00  UNCONFIRMED trade 8005: no confirmation from Moonshot Capital 2 hours after booking
+                     What | Internal: APPLE 20 @ 191.6 USD, fee 5, Mickey Mouse / Moonshot Capital, traded 2026-03-06 16:40:00, booked 2026-03-06 16:42:00
+                     Why  | Possibly: Moonshot Capital has not confirmed it yet, our booking differs from the confirmation in more than one field, or the trade was booked twice or by mistake.
+
+2026-03-07 11:05:00  MISMATCH trade 6146 vs confirmation 99291: currency
+                     What | Internal: ASML 25 @ 698.7 EUR, fee 12.5, Peter Pan / Big Dreams Brokers, traded 2026-03-07 10:25:00
+                          | Broker:   ASML 25 @ 698.7 USD, fee 12.5, Peter Pan / Big Dreams Brokers, traded 2026-03-07 10:33:00
+                          | Currency: internal 'EUR' vs broker 'USD'
+                     Why  | One side recorded the wrong settlement currency.
+
+2026-03-07 12:40:00  MISMATCH trade 8628 vs confirmation 68411: volume
+                     What | Internal: NVIDIA 100 @ 130.2 USD, fee 15, Simba King / Lazy Panda Securities, traded 2026-03-07 12:20:00
+                          | Broker:   NVIDIA 101 @ 130.2 USD, fee 15, Simba King / Lazy Panda Securities, traded 2026-03-07 12:23:00
+                          | Volume: internal '100' vs broker '101'
+                     Why  | The quantity was keyed wrongly, or the order was only partly filled.
+
+2026-03-07 20:12:00  UNCONFIRMED trade 6924: no confirmation from Moonshot Capital 2 hours after booking
+                     What | Internal: MICROSOFT 60 @ 399.9 USD, fee 20, Mickey Mouse / Moonshot Capital, traded 2026-03-07 18:10:00, booked 2026-03-07 18:12:00
+                     Why  | Possibly: Moonshot Capital has not confirmed it yet, our booking differs from the confirmation in more than one field, or the trade was booked twice or by mistake.
+
+2026-03-07 21:17:00  RESOLVED trade 6924 is now confirmed by confirmation 60566
+                     What | Both: MICROSOFT 60 @ 399.9 USD, fee 20, Mickey Mouse / Moonshot Capital, traded 2026-03-07 18:10:00
+                     Note | Update: trade 6924 was reported as unmatched at 2026-03-07 20:12; confirmation 60566 arrived 3h05m after it.
+
