@@ -7,7 +7,7 @@
 Python 3.10+. Reading the CSV files needs no packages.
 
 ```bash
-python3 reconcile.py            # runs until Ctrl+C
+python3 reconcile.py --trades ./test_data/internal_trades.csv --confirmations ./test_data/external_confirmations.csv           # runs until Ctrl+C
 python3 reconcile.py --reset    # forget the state and messages, start again from the first row
 ```
 
